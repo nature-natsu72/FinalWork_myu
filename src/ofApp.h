@@ -20,5 +20,9 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+
+        ofBoxPrimitive box; // 立方体プリミティブ
+        ofSpherePrimitive sphere; // 球プリミティブ
+        ofEasyCam cam; // カメラ
 		
 };
